@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-weight: 600;
+}
+
+.banner{
+    height: 100vh;
+    background-image: url('./imagens/WhatsApp\ Image\ 2023-11-23\ at\ 07.18.10.jpeg');
+    background-position: center center;
+    background-size: cover;
+}
+.banner > header{
+    padding: 35px 15px;
+}
+.banner header h1{
+    font-size: 23px;
+    color:lightblue
+}
+.banner h1 span{
+    color:white;
+}
+.banner-content{
+    display: grid;
+    place-items: center;
+    height: 65%;
+}
+.banner-content article{
+    font-size: 16px;
+    text-align: center;
+}
+article h1,.banner-content article p{
+    color:white;
+    margin-bottom: 20px;
+
+}
+.banner-content article h1{
+    font-size: 40px;
+    color: white;
+}
+.banner-content article p{
+    line-height: 1.5;
+}
+.banner-content article{
+    width: 70%;
+
+}
+button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+    width: 180px;
+}
+button:hover{
+    transform: scale(1.1);
+}
+.button-blue{
+    background-color: blue;
+    color:white;
+}
+.card{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    padding: 40px;
+}
+.icon{
+    border-radius: 100%;
+    width: 100%;
+}
+.card p{
+    margin-top: 15px;
+    line-height: 1.6;
+    color:darkgrey;
+}
+.card-blue{
+    background-color:darkcyan;
+    flex-direction: row-reverse;
+    color: white;
+}
+.button-white{
+    background-color: white;
+    color: rgb (35, 154, 252)
+}
+.card-blue p{
+    color: white;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 40px;
+    gap: 30px;
+}
+.cards article{
+    display: grid;
+    justify-items: center;
+    text-align: center;
+}
+.cards p{
+    margin: 25px 0px;
+}
+.card, .cards{
+    padding: 60px 80px;
+}
+footer{
+    display: grid;
+    justify-items: center;
+    gap: 25px;
+    padding-bottom: 10px;
+}
+.social-icons{
+    display: flex;
+    gap: 25px;
+   
+}
+footer span{
+    font-weight: 900;
+}
